@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <title>Plumbing Website</title>
-    <link rel="icon" type="image/x-icon" href="/Resources/images/plumbing_website_logo/plumbing-logo.png">
-    <link rel="stylesheet" type="text/css" href="/Resources/css/style.css"/>
+    <title>Houston Plumbing</title>
+    <link rel="icon" type="image/x-icon" href="Resources/images/plumbing_website_logo/plumbing-logo.png">
+    <link rel="stylesheet" type="text/css" href="Resources/css/style.css"/>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="description" content="A plumber with years of experience capable of getting lots of jobs done.">
@@ -14,21 +14,21 @@
   <body>
     <!-- Include a Spanish language change at the top of the page. -->
     <header class="nav-bar">
-      <a href="/" class="left-nav">
-        <img src="/Resources/images/plumbing_website_logo/plumbing-logo.png" id="logo" alt="Plumber Website Logo"/>
-        <strong class="page-title">Plumber Website</strong>
+      <a href="#home" class="left-nav">
+        <img src="Resources/images/plumbing_website_logo/plumbing-logo.png" id="logo" alt="Plumber Website Logo"/>
+        <strong class="page-title">Houston Plumbing</strong>
       </a>
 
       <nav class="nav-container" id="nav-menu">
         <ul class="center-nav">
-          <li class="nav-links"><a href="/#home">Home</a></li>
-          <li class="nav-links"><a href="/#about">About</a></li>
-          <li class="nav-links"><a href="/#services">Services</a></li>
-          <li class="nav-links"><a href="/#portfolio">Portfolio</a></li>
+          <li class="nav-links"><a href="#home">Home</a></li>
+          <li class="nav-links"><a href="#about">About</a></li>
+          <li class="nav-links"><a href="#services">Services</a></li>
+          <li class="nav-links"><a href="#portfolio">Portfolio</a></li>
         </ul>
 
         <div class="right-nav">
-          <a href="/templates/contact.html" class="contact-button" target="_blank">Contact Us</a>
+          <a href="pages/contact.html" class="contact-button">Contact Us</a>
         </div>
       </nav>
       
@@ -40,23 +40,26 @@
     <main>
       <section class="hero-title-section" id="home">
         <div class="hero-title-section-wrap">
-          <h1>RUBEN PLUMBING</h1>
+          <h1>HOUSTON PLUMBING</h1>
           <h2>Houston Plumbing Services</h2>
           <p>Reliable residential and commercial plumbing serving Houston and surrounding areas.</p>
+          <a href="pages/contact.html" class="contact-button">Contact Us</a>
         </div>
       </section>
 
       <section class="appeal-section" id="about">
         <div class="appeal-section-wrap">
           <h2>Reliable Plumbing Service in Houston</h2>
-          <p>Are you searching for a reliable plumbing service in Houston? If so, look no further than Ruben Plumbing.</p>
+          <p>Houston Plumbing provides dependable residential and commercial plumbing services 
+            throughout Houston. Whether you need a repair or installation service, 
+            we deliver quality workmanship and reliable customer service.</p>
         </div>
       </section>
 
       <section class="contact-section">
         <div class="contact-section-wrap">
           <h3>Trust Our Experience</h3>
-          <a href="/templates/contact.html" class="contact-button" target="_blank">Contact Us</a>
+          <a href="pages/contact.html" class="contact-button">Contact Us</a>
         </div>
       </section>
 
@@ -111,30 +114,30 @@
       <section class="portfolio-section" id="portfolio">
         <div class="portfolio-section-wrap">
           <!-- Images and Descriptions to to added-->
-          <h2>Our Works</h2>
-          <section class="work-card">
-            <div>
+          <h2>Completed Projects</h2>
+          <section>
+            <div class="work-card">
               <h3>Pipe Fixing</h3>
-              <p></p>
-              <img src="/Resources/images/works/pipe_fixing.jpg">
+              <img src="/Resources/images/works/pipe_fixing.jpg" 
+                alt="An image of a person fixing a pipe."/>
             </div>
 
-            <div>
+            <div class="work-card">
               <h3>Sink Installation</h3>
-              <p></p>
-              <img src="/Resources/images/works/sink_installation.png">
+              <img src="/Resources/images/works/sink_installation.png"
+                alt="An image of a person installing a sink."/>
             </div>
             
-            <div>
+            <div class="work-card">
               <h3>Sewer Service</h3>
-              <p></p>
-              <img src="/Resources/images/works/sewer-service.png">
+              <img src="/Resources/images/works/sewer-service.png"
+                alt="An image of a person wixing a sewer problem."/>
             </div>
 
-            <div>
+            <div class="work-card">
               <h3>Water Heater Installation</h3>
-              <p></p>
-              <img src="/Resources/images/works/water-heater-installation.png">
+              <img src="Resources/images/works/water-heater-installation.png"
+                alt="An image of a person installing a water heater."/>
             </div>
           </section>
         </div>
@@ -143,7 +146,7 @@
       <section class="contact-section">
         <div class="contact-section-wrap">
           <h3>Schedule an inspection</h3>
-          <a href="/templates/contact.html" class="contact-button" target="_blank">Contact Us</a>
+          <a href="pages/contact.html" class="contact-button">Contact Us</a>
         </div>
       </section>
     </main>
@@ -164,15 +167,15 @@
           <div class="links-footer-section-wrap">
             <h4>Links</h4>
             <ul>
-              <li class="nav-links"><a href="/#home">Home</a></li>
-              <li class="nav-links"><a href="/#about">About</a></li>
-              <li class="nav-links"><a href="/#services">Services</a></li>
-              <li class="nav-links"><a href="/#portfolio">Portfolio</a></li>
+              <li class="nav-links"><a href="#home">Home</a></li>
+              <li class="nav-links"><a href="#about">About</a></li>
+              <li class="nav-links"><a href="#services">Services</a></li>
+              <li class="nav-links"><a href="#portfolio">Portfolio</a></li>
             </ul>
           </div>
         </section>
       </div>
     </footer>
-    <script src="/Resources/js/script.js"></script>
+    <script src="Resources/js/script.js"></script>
   </body>
 </html>

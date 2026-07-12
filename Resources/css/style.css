@@ -343,6 +343,10 @@ p {
     line-height: 1.7;
 }
 
+.hero-title-section-wrap a {
+    margin-top: 1rem;
+}
+
 /* Appeal Section / About Section */
 
 .appeal-section {
@@ -560,6 +564,10 @@ p {
     padding-top: 0;
 }
 
+.work-card img {
+    height: 100%;
+    width: 100%;
+}
 /* ===========================
         CONTACT PAGE 
     ========================== */
@@ -745,7 +753,7 @@ textarea {
     border-radius: var(--radius);
     resize: vertical;
     outline: none;
-    transition: border-color 0.18s, box-shadpw 0.18s;
+    transition: border-color 0.18s, box-shadow 0.18s;
     line-height: 1.6;
 }
 
